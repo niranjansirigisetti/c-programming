@@ -14,7 +14,7 @@ void main()
 	count++;
 		if(count==3)
 		{
-	     i=i+1;	
+	        i=i+1;	
 		count=0;
 		}
 		else
