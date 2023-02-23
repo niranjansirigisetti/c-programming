@@ -1,15 +1,11 @@
-//printing  tables
+//table
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-	int i=1,j=1,num;
-	printf("enter which table you want:");
-	scanf("%d",&num);
-	while(j<=10)
-	    {
-	    	printf("%d x %d = %d\n",num,j,i*num);
-	    	i++;
-	    	j++;
-		}
+	int num,last,i;
+	printf("enter the number and last range:");
+	scanf("%d %d",&num,&last);
+	  for(i=1;i<=last;i++)
+	  printf("%d x %d = %d\n",num,i,i*num);	
 }
