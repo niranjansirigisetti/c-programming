@@ -6,9 +6,11 @@ void main()
 	char ch;
 	scanf("%c",&ch);
 	if(ch>='A'&& ch<='Z')
-	printf("The charcter is in uppercase");
-	else if(ch>='a'&&ch<='Z')
-	printf("The charcter is in lower case");
+	printf("uppercase");
+	else if(ch>='a' && ch<='z')
+	printf("lower case");
+	else if(ch>='0' && ch<= '9')
+	printf("Digit");
 	else
-	printf("The charcter is an special symbal");
+	printf("special symbol");
 }
